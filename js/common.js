@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-$("a").click(function() {
+$("a, form button").click(function() {
 		alert("Coming Soon!");
 	});
 

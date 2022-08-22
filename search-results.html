@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="container">
+				<div class="header__wrap">
+					<span class='sandwich'>
+						<span class='sw-topper'></span>
+						<span class='sw-bottom'></span>
+						<span class='sw-footer'></span>
+					</span>
+					<a href="#" class="logo">
+						<img src="img/logo.svg" alt="alt">
+					</a>
+					<ul class="menu">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">.COM Registration</a></li>
+						<li><a href="#">Transfers</a></li>
+						<li><a href="#">TLDs</a></li>
+						<li><a href="#">Support</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
+					<a href="#" class="btn-page">Sign In / Register</a>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">.COM Registration</a></li>
+					<li><a href="#">Transfers</a></li>
+					<li><a href="#">TLDs</a></li>
+					<li><a href="#">Support</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<section class="search-results">
+			<div class="container">
+				<form>
+					<div class="search-form">
+						<div class="item-form">
+							<input type="text" value="Maple Design">
+						</div>
+						<button class="btn-page"><img src="img/search2.svg" alt="alt">Search</button>
+					</div>
+				</form>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="btn-input btn-input_filter">Filter <img src="img/filter.svg" alt="alt"></div>
+						<div class="sidebar-filter">
+							<div class="title-sidebar">Domain Categories </div>
+							<div class="item-select">
+								<select>
+									<option value="1">All Categories </option>
+									<option value="1">Category 1 </option>
+									<option value="1">Category 2 </option>
+									<option value="1">Category 3 </option>
+									<option value="1">Category 4 </option>
+								</select>
+							</div>
+							<div class="title-sidebar">Added on</div>
+							<div class="item-select">
+								<select>
+									<option value="1">In the last 7 days</option>
+									<option value="1">In the last 14 days</option>
+									<option value="1">In the last 28 days</option>
+									<option value="1">In the last 54 days</option>
+								</select>
+							</div>
+							<div class="title-sidebar">Price</div>
+							<div class="range-catalog range-catalog_price">
+								<div class="range-controls">
+									<div class="input-range">
+										<input type="number" value="1" min="1" max="15000" class="control-input control-input__from" />
+									</div>
+									<div class="range-controls__text">to</div>
+									<div class="input-range input-range_big">
+										<input type="number" value="10000" min="1" max="15000" class="control-input control-input__to" />
+									</div>
+								</div>
+								<input type="text" class="range-catalog__input" name="my_range" value="" />
+							</div>
+							<hr>
+							<div class="title-sidebar">Number of Characters </div>
+							<div class="range-catalog range-catalog_characters">
+								<div class="range-controls">
+									<div class="input-range">
+										<input type="number" value="1" min="1" max="280" class="control-input control-input__from" />
+									</div>
+									<div class="range-controls__text">to</div>
+									<div class="input-range">
+										<input type="number" value="253" min="1" max="280" class="control-input control-input__to" />
+									</div>
+								</div>
+								<input type="text" class="range-catalog__input" name="my_range" value="" />
+							</div>
+							<div class="title-sidebar">Number of Words </div>
+							<div class="range-catalog range-catalog_words">
+								<div class="range-controls">
+									<div class="input-range">
+										<input type="number" value="1" min="1" max="20" class="control-input control-input__from" />
+									</div>
+									<div class="range-controls__text">to</div>
+									<div class="input-range">
+										<input type="number" value="16" min="1" max="20" class="control-input control-input__to" />
+									</div>
+								</div>
+								<input type="text" class="range-catalog__input" name="my_range" value="" />
+							</div>
+							<div class="title-sidebar">Special Characters</div>
+							<div class="item-select">
+								<select>
+									<option value="1">None</option>
+									<option value="1">One</option>
+									<option value="1">Two</option>
+									<option value="1">Three</option>
+								</select>
+							</div>
+							<hr>
+							<div class="title-sidebar">Top Level TLDs</div>
+							<div class="item-select">
+								<select>
+									<option value="1">All TLDs</option>
+									<option value="1">All TLDs</option>
+									<option value="1">All TLDs</option>
+									<option value="1">All TLDs</option>
+								</select>
+							</div>
+							<div class="title-sidebar">gTLDs</div>
+							<div class="item-select">
+								<select>
+									<option value="1">All gTLDs</option>
+									<option value="1">All gTLDs</option>
+									<option value="1">All gTLDs</option>
+									<option value="1">All gTLDs</option>
+								</select>
+							</div>
+							<div class="title-sidebar">CCTLD</div>
+							<div class="item-select">
+								<select>
+									<option value="1">All ccTLDs</option>
+									<option value="1">All ccTLDs</option>
+									<option value="1">All ccTLDs</option>
+									<option value="1">All ccTLDs</option>
+								</select>
+							</div>
+							<button class="btn-input">Reset Filter</button>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<h1 class="title-page"><span>sEARCH RESULTS</span></h1>
+						<div class="line-search">
+							<div class="search-amounts">Displaying <strong>1 to 50</strong> of <strong>2,186</strong> Domains</div>
+							<a href="#" class="share-btn"><img src="img/share.svg" alt="alt">Share Results</a>
+						</div>
+						<div class="title-extrasmall">Domain Name</div>
+						<div class="item-search">
+							<a href="#" class="item-search__name">mapledesign.co</a>
+							<div class="item-search__price">$2.99</div>
+							<a href="#" class="btn-input">Add to Cart</a>
+						</div>
+						<div class="item-search">
+							<a href="#" class="item-search__name">mapledesign.game</a>
+							<div class="item-search__price">$2.99</div>
+							<a href="#" class="btn-input">Add to Cart</a>
+						</div>
+						<div class="item-search">
+							<a href="#" class="item-search__name">mapledesign.io</a>
+							<div class="item-search__price">$2.99</div>
+							<a href="#" class="btn-input">Add to Cart</a>
+						</div>
+						<div class="item-search">
+							<a href="#" class="item-search__name">mapledesign.xyz</a>
+							<div class="item-search__price">$2.99</div>
+							<a href="#" class="btn-input">Add to Cart</a>
+						</div>
+						<div class="item-search">
+							<a href="#" class="item-search__name">mapledesign.info</a>
+							<div class="item-search__price">$2.99</div>
+							<a href="#" class="btn-input">Add to Cart</a>
+						</div>
+						<div class="item-search">
+							<a href="#" class="item-search__name">mapledesign.org</a>
+							<div class="item-search__price">$2.99</div>
+							<a href="#" class="btn-input">Add to Cart</a>
+						</div>
+						<div class="item-search">
+							<a href="#" class="item-search__name">mapledesign.uno</a>
+							<div class="item-search__price">$2.99</div>
+							<a href="#" class="btn-input">Add to Cart</a>
+						</div>
+						<div class="item-search">
+							<a href="#" class="item-search__name">mapledesign.cloud</a>
+							<div class="item-search__price">$2.99</div>
+							<a href="#" class="btn-input">Add to Cart</a>
+						</div>
+						<div class="item-search">
+							<a href="#" class="item-search__name">mapledesign.life</a>
+							<div class="item-search__price">$2.99</div>
+							<a href="#" class="btn-input">Add to Cart</a>
+						</div>
+						<div class="item-search">
+							<a href="#" class="item-search__name">mapledesign.world</a>
+							<div class="item-search__price">$2.99</div>
+							<a href="#" class="btn-input">Add to Cart</a>
+						</div>
+						<div class="bottom-search">
+							<div class="select-pager">
+								<div class="select-pager__text">Display:</div>
+								<div class="item-select">
+									<select>
+										<option value="1">20 Domains per page</option>
+										<option value="2">40 Domains per page</option>
+										<option value="3">60 Domains per page</option>
+									</select>
+								</div>
+							</div>
+							<div class="pager">
+								<a class="prev page-numbers disabled" href="#"><img src="img/back.svg" alt="alt"></a>
+								<a class="page-numbers" href="#">3</a>
+								<a class="page-numbers" href="#">4</a>
+								<span aria-current="page" class="page-numbers current" href="#">5</span>
+								<a class="page-numbers" href="#">6</a>
+								<a class="page-numbers" href="#">7</a>
+								<a class="next page-numbers" href="#"><img src="img/forth.svg" alt="alt"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="payments">
+			<div class="container">
+				<h2 class="title-main">Easily Pay and Buy with major payment methods </h2>
+				<div class="payments-wrap">
+					<div class="item-payment">
+						<div class="item-payment__icon">
+							<img src="img/ic_payment1.svg" alt="alt">
+						</div>
+						<div class="item-payment__name">Crypto</div>
+					</div>
+					<div class="item-payment">
+						<div class="item-payment__icon">
+							<img src="img/ic_payment2.svg" alt="alt">
+						</div>
+						<div class="item-payment__name">Credit Cards</div>
+					</div>
+					<div class="item-payment">
+						<div class="item-payment__icon">
+							<img src="img/ic_payment3.svg" alt="alt">
+						</div>
+						<div class="item-payment__name">PayPal</div>
+					</div>
+					<div class="item-payment">
+						<div class="item-payment__icon">
+							<img src="img/ic_payment4.svg" alt="alt">
+						</div>
+						<div class="item-payment__name">Wire Transfer </div>
+					</div>
+					<div class="item-payment">
+						<div class="item-payment__icon">
+							<img src="img/ic_payment5.svg" alt="alt">
+						</div>
+						<div class="item-payment__name">TransferWise</div>
+					</div>
+					<div class="item-payment">
+						<div class="item-payment__icon">
+							<img src="img/ic_payment6.svg" alt="alt">
+						</div>
+						<div class="item-payment__name">Western Union</div>
+					</div>
+					<div class="item-payment">
+						<div class="item-payment__icon">
+							<img src="img/ic_payment7.svg" alt="alt">
+						</div>
+						<div class="item-payment__name">AliPay</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer-top">
+				<div class="container">
+					<div class="footer-top__wrap">
+						<div class="title-footer">Legendary Customer Support</div>
+						<a href="tel:+38888008080" class="phone-footer">(888) 800-8080</a>
+						<a href="tel:+384561234567" class="phone-footer">(456) 123-4567</a>
+						<ul class="list-social">
+							<li><a href="#"><img src="img/fb.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/tw.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ln.svg" alt="alt"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-middle">
+				<div class="container">
+					<div class="line-footer">
+						<div class="name-footer">My Domains</div>
+						<ul class="list-footer">
+							<li><a href="#">Manage My Domains</a></li>
+							<li><a href="#">Domain Registration</a></li>
+							<li><a href="#">WHOIS</a></li>
+						</ul>
+					</div>
+					<div class="line-footer">
+						<div class="name-footer">Transfers </div>
+						<ul class="list-footer">
+							<li><a href="#">Transfer Into Portfolio</a></li>
+							<li><a href="#">Transfer To Another Registrar</a></li>
+							<li><a href="#">Get Transfer Status</a></li>
+						</ul>
+					</div>
+					<div class="line-footer">
+						<ul class="list-footer list-footer_simple">
+							<li><a href="#">Universal TOS</a></li>
+							<li><a href="#">Refund Policy</a></li>
+							<li><a href="#">Registrant Rights</a></li>
+							<li><a href="#">Registration Agreement</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="footer-logos">
+						<a href="#" class="footer-logo">
+							<img src="img/footer_logo1.png" alt="alt">
+						</a>
+						<a href="#" class="footer-logo">
+							<img src="img/footer_logo2.png" alt="alt">
+						</a>
+						<a href="#" class="footer-logo">
+							<img src="img/footer_logo3.png" alt="alt">
+						</a>
+					</div>
+					<div class="copyright">Copyright © 2022 by Maple Inc. All rights reserved.</div>
+					<div class="policy">WHOIS Privacy services provided by Anonymize.com</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.1"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
