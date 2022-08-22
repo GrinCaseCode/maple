@@ -326,6 +326,9 @@
     padding: 0 30px;
     margin-left: 15px;
   }
+  .select-pager .select-pager__text {
+    top: 0;
+  }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
